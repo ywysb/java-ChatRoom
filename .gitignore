@@ -3,12 +3,31 @@ Text
 download
 content_copy
 expand_less
+
 out/
 target/
 build/
+
+# --- Java & IDEA 忽略文件列表 ---
+# 忽略编译后的字节码文件夹
+out/
+target/
+build/
+
+# 忽略 IDEA 的配置文件 (每个人电脑配置不同，传上去会冲突)
+
 .idea/
 *.iml
 *.iws
 *.ipr
+
 .DS_Store
 *.log
+
+
+# 忽略 Mac 系统生成的垃圾文件 (如果主人用 Windows 也要加上防身)
+.DS_Store
+
+# 忽略日志文件
+*.log
+
